@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kweetecksee.lab3_1ui.MainActivity">
+    <item
+        android:id="@+id/action_increase"
+        android:orderInCategory="100"
+        android:title="Increase"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_add_black_24dp"
+        />
+    <item
+        android:id="@+id/action_decrease"
+        android:title="Decrease"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_remove_black_24dp"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
